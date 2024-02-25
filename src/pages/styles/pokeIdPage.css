@@ -1,0 +1,129 @@
+.idPage_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #333030;
+}
+
+.pokeid_card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #f8f3f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.pokeid_card img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.pokeid_card h3 {
+    margin: 0 0 10px;
+}
+
+.pokeid_card p {
+    margin: 0;
+    font-weight: bold;
+    color: #0f0f0f;
+}
+
+.id_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.id_page li {
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #ce2525;
+}
+
+.slot1 {
+    background-color: rgb(240, 231, 231);
+    color: #0a0a0a;
+}
+
+.pokedex .poke_types .slot2 {
+    background-color: rgb(236, 240, 236);
+    color: #030101;
+}
+
+.stat-bar-bg {
+    height: 10px;
+    background-color: #ddd;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+}
+
+.stat-bar {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: gold;
+}
+
+.stat-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-container .right-aligned {
+    margin-left: 60px;
+}
+
+.poke_stats {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.poke-stats .stat-name {
+    font-weight: bold;
+}
+
+.poke-stats .stat-value {
+    text-align: right;
+}
+
+.poke_stats li {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.poke_stats li:last-child {
+    margin-bottom: 0;
+}
+
+.poke_stats span {
+    display: block;
+    width: 50%;
+    text-align: left;
+}
+
+@media (max-width: 480px) {
+    .pokeid_card {
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,34 @@
+body {
+    background-color: aliceblue;
+    color: black;
+}
+.container_bienvenida {
+    display: grid;
+    place-items: center;
+    gap: 10px;
+}
+
+h1.titulo2 {
+    color: red;
+    text-align: center;
+}
+.btn_bienvenida {
+    background-color: red;
+    color: white;
+    border: 1px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+}
+input {
+    font-size: 16px;
+    width: 60%;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    gap: 10px;
+}
+form {
+    display: flex;
+    justify-content: space-around;
+}
