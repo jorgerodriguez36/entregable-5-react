@@ -27,7 +27,7 @@ const SelectType = ({setSelectValue}) => {
                 types?.results.map(type => (
                     <option key={type.url} value={type.url}>{type.name}</option>
                 ))
-            }
+        }
         </select>
     )
 }
